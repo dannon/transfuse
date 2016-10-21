@@ -17,8 +17,10 @@ source:
 requirements:
   build:
     - ruby
+    - zlib
   run:
     - ruby
+    - zlib
 test:
   commands:
     - transfuse --help
